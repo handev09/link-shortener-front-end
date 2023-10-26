@@ -1,0 +1,52 @@
+/* ShortenerApp.css */
+.shortener-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .shortener-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .shortener-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .shortener-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .shortener-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .shortener-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .shortener-result {
+    margin-top: 20px;
+  }
+  
+  .shortener-copied {
+    color: #28a745;
+  }
+  
